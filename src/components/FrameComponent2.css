@@ -487,7 +487,7 @@
   position: absolute;
 }
 .friends {
-  font-weight: 600;
+  font-weight: 700;
 }
 .swaps {
   margin: auto;
@@ -497,6 +497,7 @@
   font-family: inherit;
   text-align: center;
   margin-top: -50px;
+  font-weight: 400;
 }
 .swaps-container {
   margin: auto;
