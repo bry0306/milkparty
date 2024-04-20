@@ -41,7 +41,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-5xl);
-  background-color: var(--color-gray-300);
+  background-color: #000000ab;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   filter: blur(4px);
   backdrop-filter: blur(4px);
@@ -497,7 +497,7 @@
   font-family: inherit;
   text-align: center;
   margin-top: -50px;
-  font-weight: 400;
+  font-weight: 100;
 }
 .swaps-container {
   margin: auto;
