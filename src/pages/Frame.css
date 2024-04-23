@@ -1,0 +1,84 @@
+.wrapper-group-3-child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  transform: scale(1.055);
+}
+.wrapper-group-3 {
+  position: absolute;
+  top: 0;
+  left: -177px;
+  width: 4624px;
+  height: 566.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cc-efa206e71-6-icon,
+.gold-coin-money-cartoon-vector-icon {
+  position: absolute;
+  top: 329px;
+  left: 1254px;
+  width: 73.6px;
+  height: 111.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.gold-coin-money-cartoon-vector-icon {
+  top: 406px;
+  left: 536px;
+  width: 203px;
+  height: 182px;
+}
+.cb267118e1d449e5e51845ed0cdbe-icon,
+.gold-coin-money-cartoon-vector-icon1 {
+  position: absolute;
+  top: 288px;
+  left: 791px;
+  width: 108px;
+  height: 97px;
+  object-fit: contain;
+  z-index: 1;
+}
+.cb267118e1d449e5e51845ed0cdbe-icon {
+  top: 245px;
+  left: 1017px;
+  width: 224px;
+  height: 321px;
+  z-index: 2;
+}
+.wrapper-group-3-parent {
+  width: 100%;
+  height: 588px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2508px;
+  right: 0;
+  left: 0;
+}
+.data-processor,
+.desktop-1 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.desktop-1 {
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.data-processor {
+  width: 100%;
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

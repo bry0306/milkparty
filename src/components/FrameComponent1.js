@@ -1,23 +1,55 @@
+import { useMemo } from "react";
 import "./FrameComponent1.css";
 
-const FrameComponent1 = () => {
+const FrameComponent1 = ({
+  icons8Checkmark242,
+  icons8Checkmark2411,
+  propWidth,
+  propAlignSelf,
+  propPadding,
+}) => {
+  const frameDivStyle = useMemo(() => {
+    return {
+      width: propWidth,
+      alignSelf: propAlignSelf,
+    };
+  }, [propWidth, propAlignSelf]);
+
+  const frameDiv1Style = useMemo(() => {
+    return {
+      padding: propPadding,
+    };
+  }, [propPadding]);
+
   return (
-    <section className="frame-section">
-      <div className="dex-parent">
-        <h1 className="dex">dex +</h1>
-        <button className="rectangle-parent1">
-          <div className="frame-child11" />
-          <b className="b">{`<      >`}</b>
-        </button>
-      </div>
-      <div className="frame-wrapper2">
-        <div className="rectangle-parent2">
-          <div className="frame-child12" />
-          <div className="frame-child13" />
-          <div className="frame-child14" />
+    <div className="frame-parent8" style={frameDivStyle}>
+      <div className="frame-wrapper7" style={frameDiv1Style}>
+        <div className="icons8-checkmark-24-1-parent">
+          <img
+            className="icons8-checkmark-24-1"
+            loading="lazy"
+            alt=""
+            src="/icons8checkmark24-1@2x.png"
+          />
+          <img
+            className="icons8-checkmark-24-2"
+            loading="lazy"
+            alt=""
+            src={icons8Checkmark242}
+          />
+          <img
+            className="icons8-checkmark-24-11"
+            alt=""
+            src={icons8Checkmark2411}
+          />
         </div>
       </div>
-    </section>
+      <h1 className="swaps-friends-container">
+        <p className="swaps1">Swaps</p>
+        <p className="friends-social">Friends + Social Platform</p>
+        <p className="communities1">Communities</p>
+      </h1>
+    </div>
   );
 };
 

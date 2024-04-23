@@ -1,157 +1,73 @@
-.dex {
+.icons8-checkmark-24-1,
+.icons8-checkmark-24-11,
+.icons8-checkmark-24-2 {
+  width: 28px;
+  height: 23px;
+  position: relative;
+  object-fit: cover;
+  z-index: 5;
+}
+.icons8-checkmark-24-11,
+.icons8-checkmark-24-2 {
+  z-index: 2;
+}
+.frame-wrapper7,
+.icons8-checkmark-24-1-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons8-checkmark-24-1-parent {
+  gap: var(--gap-15xl);
+}
+.frame-wrapper7 {
+  padding: var(--padding-2xs) 0 0;
+}
+.friends-social,
+.swaps1 {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.communities1 {
   margin: 0;
+}
+.swaps-friends-container {
+  margin: 0;
+  height: 154px;
+  flex: 1;
   position: relative;
   font-size: inherit;
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  min-width: 118px;
+  min-width: 229px;
+  max-width: 100%;
+  z-index: 5;
 }
-@keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-30px);
-  }
-}
-.frame-child11 {
-  height: 40px;
-  width: 94px;
-  position: relative;
-  border-radius: var(--br-50xl);
-  background-color: var(--color-pink-100);
-  display: none;
-}
-.b {
-  position: relative;
-  font-size: var(--font-size-5xl);
-  display: inline-block;
-  font-family: var(--font-sf-pro-rounded);
-  color: var(--color-black);
-  white-space: pre-wrap;
-  text-align: left;
-  min-width: 60px;
-  z-index: 1;
-}
-.dex-parent,
-.rectangle-parent1 {
+.frame-parent8 {
+  width: 392px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-}
-.rectangle-parent1 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-8xs) var(--padding-mid) var(--padding-7xs);
-  background-color: var(--color-pink-100);
-  border-radius: var(--br-50xl);
-  justify-content: flex-start;
-  white-space: nowrap;
-}
-.rectangle-parent1:hover {
-  background-color: var(--color-thistle-200);
-}
-.dex-parent {
-  width: 1291px;
-  justify-content: space-between;
-  padding: 0 var(--padding-xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-xl);
+  justify-content: center;
+  gap: var(--gap-xs);
   max-width: 100%;
-}
-.frame-child12 {
-  height: 640px;
-  width: 443px;
-  background-color: var(--color-lemonchiffon);
-  backdrop-filter: blur(40px);
-  border: 1px solid var(--color-lightgoldenrodyellow);
-  box-sizing: border-box;
-}
-.frame-child12,
-.frame-child13,
-.frame-child14 {
-  position: relative;
-  border-radius: var(--br-26xl);
-  flex-shrink: 0;
-  debug_commit: 1de1738;
-  max-width: 100%;
-}
-.frame-child13 {
-  height: 642px;
-  width: 445px;
-  background-color: var(--color-mediumpurple-100);
-  border: 1px solid var(--color-pink-100);
-  box-sizing: border-box;
-}
-.frame-child14 {
-  height: 640px;
-  width: 443px;
-  background-color: var(--color-crimson);
-  mix-blend-mode: normal;
-}
-.frame-section,
-.frame-wrapper2,
-.rectangle-parent2 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.rectangle-parent2 {
-  width: 1299px;
-  gap: var(--gap-48xl);
-}
-.frame-section,
-.frame-wrapper2 {
-  padding: 0 0 0 var(--padding-6xl);
-  box-sizing: border-box;
-}
-.frame-section {
-  flex-direction: column;
-  padding: 0 0 var(--padding-784xl) var(--padding-xl);
-  gap: var(--gap-61xl);
   text-align: left;
-  font-size: var(--font-size-29xl);
+  font-size: var(--font-size-13xl);
   color: var(--color-white);
   font-family: var(--font-sf-pro-rounded);
 }
-@media screen and (max-width: 1425px) {
-  .rectangle-parent2 {
-    flex-wrap: wrap;
-  }
-  .frame-section {
-    padding-bottom: var(--padding-503xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 825px) {
-  .dex {
-    font-size: var(--font-size-19xl);
-  }
-  .rectangle-parent2 {
-    gap: var(--gap-14xl);
-  }
-  .frame-section {
-    gap: var(--gap-21xl);
-    padding-bottom: var(--padding-320xl);
-    box-sizing: border-box;
+@media screen and (max-width: 800px) {
+  .swaps-friends-container {
+    font-size: var(--font-size-7xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .dex {
-    font-size: var(--font-size-10xl);
+  .swaps-friends-container {
+    font-size: var(--font-size-lgi);
   }
-  .dex-parent {
+  .frame-parent8 {
     flex-wrap: wrap;
-  }
-  .rectangle-parent2 {
-    gap: var(--gap-mid);
-  }
-  .frame-section {
-    gap: var(--gap-xl);
-    padding-bottom: var(--padding-201xl);
-    box-sizing: border-box;
   }
 }
