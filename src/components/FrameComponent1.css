@@ -1,73 +1,184 @@
-.icons8-checkmark-24-1,
-.icons8-checkmark-24-11,
-.icons8-checkmark-24-2 {
-  width: 28px;
-  height: 23px;
-  position: relative;
-  object-fit: cover;
-  z-index: 5;
+.wrapper-group-3,
+.wrapper-group-3-child {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.icons8-checkmark-24-11,
-.icons8-checkmark-24-2 {
-  z-index: 2;
+.wrapper-group-3-child {
+  object-fit: contain;
+  top: 8px;
+  transform: scale(1.055);
 }
-.frame-wrapper7,
-.icons8-checkmark-24-1-parent {
+.wrapper-group-3 {
+  top: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
-.icons8-checkmark-24-1-parent {
-  gap: var(--gap-15xl);
+.span {
+  color: var(--color-black);
+  white-space: pre-wrap;
 }
-.frame-wrapper7 {
-  padding: var(--padding-2xs) 0 0;
-}
-.friends-social,
-.swaps1 {
-  margin-block-start: 0;
-  margin-block-end: 20px;
-}
-.communities1 {
+.chats-and-spread,
+.enjoy-group {
   margin: 0;
 }
-.swaps-friends-container {
+.enjoy-group-chats-container {
   margin: 0;
-  height: 154px;
-  flex: 1;
-  position: relative;
+  position: absolute;
+  top: 177px;
+  left: 1265px;
   font-size: inherit;
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  min-width: 229px;
-  max-width: 100%;
-  z-index: 5;
+  width: 283px;
 }
-.frame-parent8 {
-  width: 392px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-xs);
-  max-width: 100%;
+.ape-in-with,
+.communities2 {
+  margin: 0;
+}
+.free-and-paid {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.ape-in-with-container {
+  margin: 0;
+  position: absolute;
+  top: 53px;
+  left: 1200px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-maroon);
+}
+.blank-line3,
+.blank-line4,
+.blank-line5,
+.explore-defi-with,
+.friends-and-some,
+.in-the-market,
+.perform-including,
+.snipe-and-copytrades,
+.swap-100s-of,
+.the-biggest-influencers,
+.with-tools-built {
+  margin: 0;
+}
+.swap-100s-of-container {
+  margin: 0;
+  position: absolute;
+  top: 64px;
+  left: 286px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-midnightblue);
+}
+.cc-efa206e71-3-icon,
+.cc-efa206e71-4-icon {
+  position: absolute;
+  top: 250.9px;
+  left: 321px;
+  width: 83.7px;
+  height: 79px;
+  object-fit: contain;
+}
+.cc-efa206e71-4-icon {
+  top: 218.8px;
+  left: 436px;
+  width: 95.7px;
+  height: 97.3px;
+}
+.cc-efa206e71-5-icon,
+.cc-efa206e71-6-icon {
+  position: absolute;
+  top: 110px;
+  left: 876.6px;
+  width: 111.5px;
+  height: 119.7px;
+  object-fit: contain;
+}
+.cc-efa206e71-6-icon {
+  top: 329px;
+  left: 1431px;
+  width: 73.6px;
+  height: 111.3px;
+}
+.gold-coin-money-cartoon-vector-icon {
+  position: absolute;
+  top: 406px;
+  left: 713px;
+  width: 203px;
+  height: 182px;
+  object-fit: contain;
+}
+.cb267118e1d449e5e51845ed0cdbe-icon,
+.gold-coin-money-cartoon-vector-icon1 {
+  position: absolute;
+  top: 288px;
+  left: 968px;
+  width: 108px;
+  height: 97px;
+  object-fit: contain;
+}
+.cb267118e1d449e5e51845ed0cdbe-icon {
+  top: 245px;
+  left: 1194px;
+  width: 224px;
+  height: 321px;
+}
+.best-social-platform,
+.blank-line6,
+.blank-line7,
+.crypto,
+.milkparty-offers-the {
+  margin: 0;
+}
+.earn-rewards-and,
+.for-the-airdrops {
+  margin: 0;
+  color: var(--color-indigo);
+}
+.blank-line8,
+.blank-line9,
+.yes-tell-your {
+  margin: 0;
+}
+.milkparty-offers-the-container {
+  margin: 0;
+  position: absolute;
+  top: 34px;
+  left: 729px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.wrapper-group-3-parent {
+  position: absolute;
+  top: 2508px;
+  left: -177px;
+  width: 4624px;
+  height: 566.4px;
   text-align: left;
   font-size: var(--font-size-13xl);
   color: var(--color-white);
   font-family: var(--font-sf-pro-rounded);
 }
-@media screen and (max-width: 800px) {
-  .swaps-friends-container {
+@media screen and (max-width: 767px) {
+  .ape-in-with-container,
+  .enjoy-group-chats-container,
+  .milkparty-offers-the-container,
+  .swap-100s-of-container {
     font-size: var(--font-size-7xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .swaps-friends-container {
+  .ape-in-with-container,
+  .enjoy-group-chats-container,
+  .milkparty-offers-the-container,
+  .swap-100s-of-container {
     font-size: var(--font-size-lgi);
-  }
-  .frame-parent8 {
-    flex-wrap: wrap;
   }
 }
