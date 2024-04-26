@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import DataProcessor from "./pages/DataProcessor";
+import Frame from "./pages/Frame";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<DataProcessor />} />
+      <Route path="/" element={<Frame />} />
     </Routes>
   );
 }
