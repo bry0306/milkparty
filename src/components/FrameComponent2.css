@@ -1,0 +1,68 @@
+.icons8-checkmark-24-1,
+.icons8-checkmark-24-11,
+.icons8-checkmark-24-2 {
+  width: 28px;
+  height: 23px;
+  position: relative;
+  object-fit: cover;
+  z-index: 6;
+}
+.feature-requests-docs-status-i,
+.support-newsletter-privacy-tel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature-requests-docs-status-i {
+  gap: var(--gap-15xl);
+}
+.support-newsletter-privacy-tel {
+  padding: var(--padding-2xs) 0 0;
+}
+.friends-social,
+.swaps1 {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.communities {
+  margin: 0;
+}
+.swaps-friends-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+  z-index: 6;
+}
+.security-learn-terms-discord {
+  width: 391px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-display);
+}
+@media screen and (max-width: 800px) {
+  .swaps-friends-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .swaps-friends-container {
+    font-size: var(--font-size-lgi);
+  }
+  .security-learn-terms-discord {
+    flex-wrap: wrap;
+  }
+}
