@@ -22,8 +22,8 @@ const FrameComponent1 = ({
   }, [propPadding]);
 
   return (
-    <div className="frame-parent7" style={frameDivStyle}>
-      <div className="frame-wrapper4" style={frameDiv1Style}>
+    <div className="frame-parent9" style={frameDivStyle}>
+      <div className="frame-wrapper9" style={frameDiv1Style}>
         <div className="icons8-checkmark-24-1-parent">
           <img
             className="icons8-checkmark-24-1"

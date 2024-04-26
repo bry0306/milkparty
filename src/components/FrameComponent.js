@@ -5,11 +5,11 @@ const FrameComponent = () => {
   return (
     <section className="wave-2-1-parent">
       <img className="wave-2-1-icon" loading="lazy" alt="" src="/wave2-1.svg" />
-      <div className="rectangle-parent1">
-        <div className="frame-child1" />
-        <div className="frame-parent8">
-          <div className="rectangle-parent2">
-            <div className="frame-child2" />
+      <div className="rectangle-parent3">
+        <div className="frame-child3" />
+        <div className="frame-parent10">
+          <div className="rectangle-parent4">
+            <div className="frame-child4" />
             <div className="milkparty-container">
               <h1 className="milkparty2">
                 <span>m</span>
@@ -24,8 +24,8 @@ const FrameComponent = () => {
               icons8Checkmark2411="/icons8checkmark24-1@2x.png"
             />
           </div>
-          <div className="rectangle-parent3">
-            <div className="frame-child3" />
+          <div className="rectangle-parent5">
+            <div className="frame-child5" />
             <div className="current-defi-dex-wrapper">
               <h1 className="current-defi-dex">Current Defi Dex</h1>
             </div>
@@ -38,8 +38,8 @@ const FrameComponent = () => {
             />
           </div>
         </div>
-        <div className="frame-wrapper5">
-          <div className="frame-parent9">
+        <div className="frame-wrapper10">
+          <div className="frame-parent11">
             <div className="roadmap-wrapper">
               <div className="roadmap">2024 Roadmap</div>
             </div>
@@ -78,7 +78,7 @@ const FrameComponent = () => {
           </div>
         </div>
         <footer className="frame-footer">
-          <div className="frame-child4" />
+          <div className="frame-child6" />
           <h1 className="milkparty3">
             <span> m</span>
             <span className="i3">i</span>
@@ -86,27 +86,27 @@ const FrameComponent = () => {
             <span className="k3">k</span>
             <span>party./</span>
           </h1>
-          <div className="frame-parent10">
-            <div className="rectangle-parent4">
-              <div className="frame-child5" />
+          <div className="frame-parent12">
+            <div className="rectangle-parent6">
+              <div className="frame-child7" />
               <h1 className="enter-you-email">Enter you email</h1>
-              <div className="frame-parent11">
+              <div className="frame-parent13">
                 <div className="sign-up-for-our-newsletter-and-wrapper">
                   <div className="sign-up-for">
                     Sign up for our newsletter and join the growing Milkparty
                     community.
                   </div>
                 </div>
-                <button className="frame-button">
-                  <div className="frame-child6" />
+                <button className="figma-component">
+                  <div className="figma-component-child" />
                   <div className="sign-up">Sign up</div>
                 </button>
               </div>
             </div>
-            <div className="frame-parent12">
+            <div className="frame-parent14">
               <div className="product-parent">
                 <div className="product">Product</div>
-                <div className="download-parent">
+                <div className="data-flow-connector">
                   <div className="download">Download</div>
                   <div className="security">Security</div>
                   <div className="support">Support</div>
